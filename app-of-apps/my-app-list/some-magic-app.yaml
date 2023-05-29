@@ -20,7 +20,7 @@ spec:
   # Destination cluster and namespace to deploy the application
   destination:
     server: https://kubernetes.default.svc
-    namespace: prometheus
+    namespace: some-magic-app
 
   # Sync policy
   syncPolicy:
